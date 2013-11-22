@@ -8,6 +8,12 @@
 
 <?php wp_footer(); ?>
 
+<!-- JS -->
+
+    <script src="<?php bloginfo('template_directory'); ?>/app/bower_components/jquery/jquery.js"></script>
+    <script src="<?php bloginfo('template_directory'); ?>/app/bower_components/foundation/js/foundation.min.js"></script>
+    <script src="<?php bloginfo('template_directory'); ?>/js/app.js"></script>
+
 </body>
 
 </html>
