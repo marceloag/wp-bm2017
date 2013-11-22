@@ -71,10 +71,10 @@
 	<link rel="pingback" href="<?php bloginfo('pingback_url'); ?>" />
 
 <!-- Javascripts for IE Support -->
-    <script src="app/bower_components/jquery/jquery.js"></script>
-    <script src="app/bower_components/foundation/js/foundation.min.js"></script>
-    <script src="js/app.js"></script>
-    <script src="app/bower_components/modernizr/modernizr.js"></script>
+    <script src="<?php bloginfo('template_directory'); ?>/app/bower_components/jquery/jquery.js"></script>
+    <script src="<?php bloginfo('template_directory'); ?>/app/bower_components/foundation/js/foundation.min.js"></script>
+    <script src="<?php bloginfo('template_directory'); ?>/js/app.js"></script>
+    <script src="<?php bloginfo('template_directory'); ?>/app/bower_components/modernizr/modernizr.js"></script>
 
 <!-- Facebook Image -->
 	<link rel="image_src" href="" />
