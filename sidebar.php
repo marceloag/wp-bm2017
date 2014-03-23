@@ -1,4 +1,3 @@
-<div id="sidebar" class="large-4 columns">
 <div class="panel">
     <?php if (function_exists('dynamic_sidebar') && dynamic_sidebar('Sidebar Widgets')) : else : ?>
     
@@ -36,5 +35,4 @@
 	
 	<?php endif; ?>
 
-</div>
 </div>
