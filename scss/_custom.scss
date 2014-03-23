@@ -9,3 +9,11 @@ a{
 
 @import "compass/CSS3";
 @import "colores";
+
+.mainmenu{
+	list-style: none;
+	li{
+		display: inline-block;
+		padding: 0 1em;
+	}
+}
