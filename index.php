@@ -35,10 +35,10 @@
           <img src="http://fakeimg.pl/350x200/00CED1/FFF/?text=img+placeholder">
         </div>
         <div class="large-9 columns">
-          
-          <h1><?php the_title(); ?></h1>
+          <h3><?php the_title(); ?></h3>
           <p><?php the_content();?></p>
         </div>
+        <hr/>
       <?php endwhile; endif; ?>
     </div>
 
