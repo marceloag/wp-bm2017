@@ -71,7 +71,8 @@
 	<link rel="apple-touch-icon" href="<?php bloginfo('template_directory'); ?>/_/img/apple-touch-icon.png">
 	<link rel="stylesheet" href="<?php bloginfo('stylesheet_url'); ?>">
 	<link rel="pingback" href="<?php bloginfo('pingback_url'); ?>" />
-	    <link href="http://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet">
+<!-- Font Awesome -->
+	<link href="http://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet">
 
 <!-- Facebook Image -->
 	<link rel="image_src" href="" />
