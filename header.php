@@ -82,7 +82,7 @@
 
 </head>
 <body>
-  <header>
+  <header class="panel">
     <div class="row">
         <div class="large-3 columns logo">
 				<img src="http://fakeimg.pl/350x200/00CED1/FFF/?text=img+placeholder">      
