@@ -1,29 +1,27 @@
 <?php get_header(); ?>
 
-	<?php if (have_posts()) : while (have_posts()) : the_post(); ?>
-			
-		<article class="post" id="post-<?php the_ID(); ?>">
+  <section id="main">
+    <div class="row page">
+      <div class="large-9 columns">
 
-			<h2><?php the_title(); ?></h2>
-
-			<?php include (TEMPLATEPATH . '/_/inc/meta.php' ); ?>
-
-			<div class="entry">
-
-				<?php the_content(); ?>
-
-				<?php wp_link_pages(array('before' => 'Pages: ', 'next_or_number' => 'number')); ?>
-
-			</div>
-
-			<?php edit_post_link('Edit this entry.', '<p>', '</p>'); ?>
-
-		</article>
-		
-		<?php comments_template(); ?>
-
-		<?php endwhile; endif; ?>
-
-<?php get_sidebar(); ?>
+        <div class="ftimg">
+          <img src="http://fakeimg.pl/1000x300/00CED1/FFF/?text=img+placeholder">
+          <div class="captionpage">
+          		<?php if (have_posts()) : while (have_posts()) : the_post(); ?>
+            	<h1><?php the_title(); ?></h1>
+          </div>
+        </div>
+					<?php the_content(); ?>
+				<?php endwhile; endif; ?>
+      </div>
+      <!-- /Noticias -->
+      <div class="large-3 columns sidebar">
+        <nav class="sidebarmenu">
+		<?php wp_nav_menu( array('menu' => 'sidebarmenu','menu_class' => 'sidebarmenu', )); ?>
+        </nav>
+      </div>
+      <!-- /SIDEBAR -->
+    </div>
+  </section>
 
 <?php get_footer(); ?>

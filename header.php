@@ -9,7 +9,9 @@
 <head id="www-sitename-com" data-template-set="html5-reset-wordpress-theme" profile="http://gmpg.org/xfn/11">
 
 	<meta charset="<?php bloginfo('charset'); ?>">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<!-- <meta name="viewport" content="width=device-width, initial-scale=1" /> -->
+	<!-- Always force latest IE rendering engine (even in intranet) & Chrome Frame -->
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
 	
 	<?php if (is_search()) { ?>
 	<meta name="robots" content="noindex, nofollow" /> 
@@ -69,9 +71,7 @@
 	<link rel="apple-touch-icon" href="<?php bloginfo('template_directory'); ?>/_/img/apple-touch-icon.png">
 	<link rel="stylesheet" href="<?php bloginfo('stylesheet_url'); ?>">
 	<link rel="pingback" href="<?php bloginfo('pingback_url'); ?>" />
-
-
-    <script src="<?php bloginfo('template_directory'); ?>/app/bower_components/modernizr/modernizr.js"></script>
+	    <link href="http://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet">
 
 <!-- Facebook Image -->
 	<link rel="image_src" href="" />
@@ -82,17 +82,15 @@
 
 </head>
 <body>
-<header class="panel">
-	<div class="row">
-		<div class="large-4 columns">
-			<!-- Titulo del Blog -->
-			<h2><?php echo bloginfo('name'); ?></h2>
+  <header>
+    <div class="row">
+        <div class="large-3 columns logo">
+				<img src="http://fakeimg.pl/350x200/00CED1/FFF/?text=img+placeholder">      
 		</div>
-		<div class="large-8 columns">
-			<!-- Custom Menu -->
-			<?php wp_nav_menu( array('menu' => 'menu' )); ?>
-		</div>
-	</div>
-</header>
+        <div class="large-9 columns">
+        	<?php wp_nav_menu( array('menu' => 'mainmenu','menu_class' => 'mainmenu', )); ?>
+        </div>
+    </div>
+  </header>
 		
 

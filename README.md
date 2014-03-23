@@ -1,10 +1,16 @@
-# Foundation Compass Template * & WORDPRESS!! *
+# Wordpress + Zurb Foundation + Compass 
 
-The easiest way to get started with Foundation + Compass.
+## Basado en:
 
-## Requirements
+### HTML 5 Wordpress Theme
+The HTML5 Reset Wordpress theme es un tema en blanco para wordpress que lo encuentran en [HTML5 Reset templates](https://github.com/murtaugh/HTML5-Reset-Wordpress-Theme)
 
-  * Ruby 1.9+
-  * [Node.js](http://nodejs.org)
-  * [compass](http://compass-style.org/): `gem install compass`
-  * [bower](http://bower.io): `npm install bower -g`
+### Zurb's Foundation v. 4.3 [Updateado]
+Foundation el "framework" [Foundation](https://github.com/zurb/foundation)
+
+### Compass
+Otro Framework (yo diria una coleccion de mixins) que extiende SASS [Compass](http://compass-style.org/)
+
+## Acerca de mí:
+
+Soy [Marcelo Aguila](http://www.marceloaguila.com) trabajo y soy co-fundador de [Croop](http://www.croop.cl) y soy un tipo tranquilo, tratando de no hacer mal y ser buen amigo.
