@@ -1,6 +1,6 @@
 <footer>
     <div class="row">
-      <div class="large-10 columns large-centered">
+      <div class="large-10 columns large-centered" style="text-align:center;">
         WP-FD-5 by Marcelo Aguila ®
       </div>
     </div>
