@@ -1,6 +1,6 @@
 <?php
 /*
-Template Name: Personlized Page
+Template Name: Custom Page
 */
 ?>
 
