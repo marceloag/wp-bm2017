@@ -1,7 +1,7 @@
 <footer>
     <div class="row">
       <div class="large-10 columns large-centered" style="text-align:center;">
-        WP-FD-5 by Marcelo Aguila ®
+        <?php wp_nav_menu( array( 'theme_location' => 'footer' , 'menu_class' => 'footer') ); ?>
       </div>
     </div>
 </footer>

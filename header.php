@@ -72,7 +72,7 @@
 	<link rel="stylesheet" href="<?php bloginfo('stylesheet_url'); ?>">
 	<link rel="pingback" href="<?php bloginfo('pingback_url'); ?>" />
 <!-- Font Awesome -->
-	<link href="http://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet">
+	<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
 
 <!-- Facebook Image -->
 	<link rel="image_src" href="" />
@@ -89,7 +89,7 @@
 				<img src="http://fakeimg.pl/350x200/00CED1/FFF/?text=img+placeholder">      
 		</div>
         <div class="large-9 columns">
-        	<?php wp_nav_menu( array('menu' => 'mainmenu','menu_class' => 'mainmenu', )); ?>
+        	<?php wp_nav_menu( array( 'theme_location' => 'mainmenu' , 'menu_class' => 'mainmenu') ); ?>
         </div>
     </div>
   </header>

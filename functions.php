@@ -1,6 +1,6 @@
 <?php
         // Translations can be filed in the /languages/ directory
-        load_theme_textdomain( 'html5reset', TEMPLATEPATH . '/languages' );
+    load_theme_textdomain( 'html5reset', TEMPLATEPATH . '/languages' );
  
         $locale = get_locale();
         $locale_file = TEMPLATEPATH . "/languages/$locale.php";
@@ -45,7 +45,17 @@
         add_image_size( 'slides', 960, 500,true );
     }
 
-    //
+    // Custom Menu Places
+    function register_my_menus() {
+      register_nav_menus(
+        array(
+          'mainmenu' => __( 'mainmenu' ),
+          'footer' => __( 'footer' )
+        )
+      );
+    }
+
+    add_action( 'init', 'register_my_menus' );
     
     add_theme_support( 'post-formats', array('aside', 'gallery', 'link', 'image', 'quote', 'status', 'audio', 'chat', 'video')); // Add 3.1 post format theme support.
 

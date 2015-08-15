@@ -1,8 +1,9 @@
 <form action="<?php bloginfo('siteurl'); ?>" id="searchform" method="get">
-    <div>
-        <label for="s" class="screen-reader-text">Search for:</label>
-        <input type="search" id="s" name="s" value="" />
-        
-        <input type="submit" value="Search" id="searchsubmit" />
+    <div class="row collapse">
+    	<div class="large-9 columns">
+    		<input type="search" id="buscador" name="s" value="" placeholder="Buscar..." /></div>
+    	<div class="large-3 columns">
+    		<input type="submit" value="" id="botonbuscador" />
+    	</div>
     </div>
 </form>

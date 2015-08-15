@@ -1,19 +1,15 @@
 @import 'compass/css3';
+@import "breakpoint";
 @import 'colores';
+@import "_animate";
+@import "_utilities";
 
-a{
-  @include transition-property('all');
-  @include transition-duration(2s);
-  @include transition-timing-function(ease-in);
-}
-
-@import "compass/CSS3";
-@import "colores";
-
-.mainmenu{
-	list-style: none;
-	li{
-		display: inline-block;
-		padding: 0 1em;
-	}
+.sampleclass{
+	padding:0;
+		@include breakpoint($ipad) {
+			padding-bottom: 1em;
+  		}
+  		@include breakpoint($iphone) {
+			padding-bottom: 1em;
+  		}
 }
