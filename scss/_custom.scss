@@ -13,3 +13,98 @@
 			padding-bottom: 1em;
   		}
 }
+
+
+*{
+	font-family: 'Roboto';
+	font-weight: 100;
+}
+body{
+	background-color: #f2efea;
+}
+footer{
+	margin-top: 1em;
+}
+#productos{
+	margin: 1em 0;
+}
+.sli{
+	background: url("../images/bgslider.png");
+	background-size: cover;
+}
+.full{
+   width: 100%;
+   margin-left: auto;
+   margin-right: auto;
+   max-width: initial;
+}
+
+.lanas{
+	background-color: #ebc922;
+}
+.desc{
+	color: white;
+	padding: 2em;
+	.categoria{
+		display: inline-block;
+		padding: .5em 1em;
+		border: 2px solid white;
+		margin-bottom: 1em;
+	}
+	h1{
+		font-family: 'Roboto Slab';
+		color: white;
+		font-weight: 100;
+	}
+	p{
+		font-family: 'Roboto';
+		font-weight: 100;
+	}
+}
+.mainmenu{
+	li{
+		list-style: none;
+		display: inline-block;
+		a{
+			display: block;
+			font-family: 'Roboto Slab';
+			color: #a8956c;
+			padding: .5em 1.5em 0 1.5em; 
+		}
+	}
+}
+
+.buscar{
+	background-color: #eae0cf !important;
+	padding: .3em !important;
+	font-size: .8em !important;
+	border: 1px solid #eae0cf - 20 !important;
+}
+
+.producto{
+	background-color: white;
+	img{
+		border-bottom: 4px solid #6bab16;
+	}
+	.precio{
+		display: inline-block;
+		color: white;
+		padding: .6em;
+		background-color: #6bab16;
+		font-family: 'Georgia';
+	}
+}
+
+.dato{
+	color: #a8956c;
+	font-family: 'Roboto Slab';
+	margin-top: .4em;
+	margin-bottom: 1em;
+	line-height: 120%;
+}
+
+.orbit-bullets{
+	position: absolute;
+	right: .8em;
+	bottom: 0;
+}
