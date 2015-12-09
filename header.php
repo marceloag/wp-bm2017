@@ -83,15 +83,20 @@
 
 </head>
 <body>
-  <header class="panel">
-    <div class="row">
-        <div class="large-3 columns logo">
-				<img src="http://fakeimg.pl/350x200/00CED1/FFF/?text=img+placeholder">      
-		</div>
-        <div class="large-9 columns">
-        	<?php wp_nav_menu( array( 'theme_location' => 'mainmenu' , 'menu_class' => 'mainmenu') ); ?>
-        </div>
-    </div>
+
+  <header>
+      <div class="row">
+          <div class="large-4 columns">
+              <img src="<?php bloginfo('template_directory'); ?>/images/logo.png">
+          </div>
+          <div class="large-8 columns">
+              <div class="large-5 columns right">
+                  <input type="text" class="buscar">
+              </div>
+              <div class="large-12 columns">
+				<?php wp_nav_menu( array( 'theme_location' => 'mainmenu' , 'menu_class' => 'mainmenu text-right') ); ?>
+              </div>
+          </div>
+      </div>
   </header>
-		
 
