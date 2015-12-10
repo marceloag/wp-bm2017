@@ -1,10 +1,14 @@
-<footer>
-    <div class="row">
-      <div class="large-10 columns large-centered" style="text-align:center;">
-        <?php wp_nav_menu( array( 'theme_location' => 'footer' , 'menu_class' => 'footer') ); ?>
+  <footer>
+      <div class="row">
+          <div class="large-3 columns large-centered">
+              <img src="<?php bloginfo('template_directory'); ?>/images/webpay.png" alt="">
+          </div>
+          <div class="large-6 columns large-centered text-center dato">
+            Fibras y Colores de la Patagonia, Punta Arenas Dirección #123,<br> 
+            contacto@fibrasycolores.cl, Fono: +56 61 222222
+          </div>
       </div>
-    </div>
-</footer>
+  </footer>
 
 <?php wp_footer(); ?>
 	
