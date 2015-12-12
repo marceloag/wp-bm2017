@@ -29,14 +29,15 @@
 		<!--  -->
 		<ul class="large-block-grid-4">
 			<?php while (have_posts()) : the_post(); ?>
-			
+			<li>
 				<div class="producto">
 					<?php the_post_thumbnail(); ?>
 					<div class="info text-center">
                         <?php the_title(); ?><br>
-                          <div class="precio"><?php echo get_the_field("precio"); ?></div>
+                          <div class="precio"><?php echo get_field("precio"); ?></div>
                     </div>
 				</div>
+			</li>
 			<?php endwhile; ?>
 		</ul>
 
