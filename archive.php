@@ -31,7 +31,7 @@
 			<?php while (have_posts()) : the_post(); ?>
 			<li>
 				<div class="producto">
-					<?php the_post_thumbnail(); ?>
+					<?php the_post_thumbnail("producto"); ?>
 					<div class="info text-center">
                         <?php the_title(); ?><br>
                           <div class="precio"><?php echo get_field("precio"); ?></div>
