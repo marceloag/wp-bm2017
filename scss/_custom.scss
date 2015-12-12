@@ -118,7 +118,6 @@ footer{
 }
 
 .sub-menu{
-	background-color: #f2efea;
 	position: absolute;
 	margin: 0;
 	padding: 0;
@@ -131,6 +130,7 @@ footer{
 		display: block !important;
 		width: 100% !important;
 		margin-top: 1px;
+		background-color: #f2efea;
 		a{
 			display: block;
 			font-family: 'Roboto Slab' !important;
