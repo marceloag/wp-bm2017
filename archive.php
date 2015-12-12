@@ -1,5 +1,7 @@
 <?php get_header(); ?>
 
+<div class="row">
+	<div class="large-12 columns">
 		<?php if (have_posts()) : ?>
 
  			<?php $post = $posts[0]; // Hack. Set $post so that the_date() works. ?>
@@ -25,34 +27,23 @@
 			<?php /* If this is a paged archive */ } elseif (isset($_GET['paged']) && !empty($_GET['paged'])) { ?>
 				<h2 class="pagetitle">Blog Archives</h2>
 			
-			<?php } ?>
-
-			<?php include (TEMPLATEPATH . '/_/inc/nav.php' ); ?>
-
+		<?php } ?>
+		<!--  -->
+		<ul class="large-block-grid-4">
 			<?php while (have_posts()) : the_post(); ?>
 			
-				<article <?php post_class() ?>>
-				
-						<h2 id="post-<?php the_ID(); ?>"><a href="<?php the_permalink() ?>"><?php the_title(); ?></a></h2>
-					
-						<?php include (TEMPLATEPATH . '/_/inc/meta.php' ); ?>
-
-						<div class="entry">
-							<?php the_content(); ?>
-						</div>
-
-				</article>
-
+				<div class="producto">
+					<?php the_post_thumbnail(); ?>
+					<div class="info text-center">
+                        <?php the_title(); ?><br>
+                          <div class="precio"><?php echo get_the_field("precio"); ?></div>
+                    </div>
+				</div>
 			<?php endwhile; ?>
+		</ul>
 
-			<?php include (TEMPLATEPATH . '/_/inc/nav.php' ); ?>
-			
-	<?php else : ?>
-
-		<h2>Nothing found</h2>
-
-	<?php endif; ?>
-
-<?php get_sidebar(); ?>
+	</div>
+</div>
+		
 
 <?php get_footer(); ?>
