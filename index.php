@@ -1,5 +1,6 @@
 <?php get_header(); ?>
 
+<div class="restoftheworld">
 
   <section id="slider">
       <div class="row full sli">
