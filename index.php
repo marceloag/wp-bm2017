@@ -37,6 +37,32 @@
   <section id="productos">
       <div class="row">
           <ul class="large-block-grid-4">
+
+          <?php
+              $the_query = new WP_Query(array(
+                'post_type' => 'productos',
+                'showposts' => 10, 
+                'posts_per_page'  => 8,
+                'orderby'     => 'rand',
+              ));
+          ?>
+          
+          <!-- the loop -->
+          <?php while ( $the_query->have_posts() ) : $the_query->the_post(); ?>
+              <li>
+                  <div class="producto">
+                      <?php the_post_thumbnail(); ?>
+                      <div class="info text-center">
+                          <?php the_title() ?> <br>
+                          <div class="precio">$25.000</div>
+                      </div>
+                  </div>
+              </li>
+          <?php endwhile; ?>
+          <!-- end of the loop -->
+
+
+
               <li>
                   <div class="producto">
                       <img src="http://fakeimg.pl/350x200/00CED1/FFF/?text=img+placeholder">
