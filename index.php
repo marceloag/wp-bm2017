@@ -41,7 +41,7 @@
           <?php
               $the_query = new WP_Query(array(
                 'post_type' => 'productos',
-                'showposts' => 10, 
+                'showposts' => 12, 
                 'posts_per_page'  => 8,
                 'orderby'     => 'rand',
               ));
@@ -60,81 +60,6 @@
               </li>
           <?php endwhile; ?>
           <!-- end of the loop -->
-
-
-
-              <li>
-                  <div class="producto">
-                      <img src="http://fakeimg.pl/350x200/00CED1/FFF/?text=img+placeholder">
-                      <div class="info text-center">
-                          Piesera <br>
-                          <div class="precio">$25.000</div>
-                      </div>
-                  </div>
-              </li>
-              <li>
-                  <div class="producto">
-                      <img src="http://fakeimg.pl/350x200/00CED1/FFF/?text=img+placeholder">
-                      <div class="info text-center">
-                          Piesera <br>
-                          <div class="precio">$25.000</div>
-                      </div>
-                  </div>
-              </li>
-              <li>
-                  <div class="producto">
-                      <img src="http://fakeimg.pl/350x200/00CED1/FFF/?text=img+placeholder">
-                      <div class="info text-center">
-                          Piesera <br>
-                          <div class="precio">$25.000</div>
-                      </div>
-                  </div>
-              </li>
-              <li>
-                  <div class="producto">
-                      <img src="http://fakeimg.pl/350x200/00CED1/FFF/?text=img+placeholder">
-                      <div class="info text-center">
-                          Piesera <br>
-                          <div class="precio">$25.000</div>
-                      </div>
-                  </div>
-              </li>
-              <li>
-                  <div class="producto">
-                      <img src="http://fakeimg.pl/350x200/00CED1/FFF/?text=img+placeholder">
-                      <div class="info text-center">
-                          Piesera <br>
-                          <div class="precio">$25.000</div>
-                      </div>
-                  </div>
-              </li>
-              <li>
-                  <div class="producto">
-                      <img src="http://fakeimg.pl/350x200/00CED1/FFF/?text=img+placeholder">
-                      <div class="info text-center">
-                          Piesera <br>
-                          <div class="precio">$25.000</div>
-                      </div>
-                  </div>
-              </li>
-              <li>
-                  <div class="producto">
-                      <img src="http://fakeimg.pl/350x200/00CED1/FFF/?text=img+placeholder">
-                      <div class="info text-center">
-                          Piesera <br>
-                          <div class="precio">$25.000</div>
-                      </div>
-                  </div>
-              </li>
-              <li>
-                  <div class="producto">
-                      <img src="http://fakeimg.pl/350x200/00CED1/FFF/?text=img+placeholder">
-                      <div class="info text-center">
-                          Piesera <br>
-                          <div class="precio">$25.000</div>
-                      </div>
-                  </div>
-              </li>
           </ul>
       </div>
   </section>
