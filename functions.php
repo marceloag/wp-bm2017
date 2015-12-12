@@ -59,4 +59,12 @@
     
     add_theme_support( 'post-formats', array('aside', 'gallery', 'link', 'image', 'quote', 'status', 'audio', 'chat', 'video')); // Add 3.1 post format theme support.
 
+    function any_ptype_on_cat($request) {
+    if ( isset($request['category_name']) )
+        $request['post_type'] = 'any';
+
+    return $request;
+    }
+    add_filter('request', 'any_ptype_on_cat');
+
 ?>
