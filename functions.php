@@ -43,6 +43,7 @@
 
     if ( function_exists( 'add_image_size' ) ) { 
         add_image_size( 'slides', 715, 354,true );
+        add_image_size( 'producto', 700, 400,true );
     }
 
     // Custom Menu Places
