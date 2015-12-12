@@ -42,7 +42,7 @@
     }
 
     if ( function_exists( 'add_image_size' ) ) { 
-        add_image_size( 'slides', 960, 500,true );
+        add_image_size( 'slides', 715, 354,true );
     }
 
     // Custom Menu Places

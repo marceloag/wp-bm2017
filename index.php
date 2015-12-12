@@ -5,6 +5,30 @@
   <section id="slider">
       <div class="row full sli">
           <ul class="example-orbit" data-orbit data-options="pause_on_hover:false;animation:fade;slide_number:false">
+
+            <?php
+                        $the_query = new WP_Query(array(
+                          'post_type' => 'slide',
+                          'showposts' => 10, 
+                          'posts_per_page'  => -1,
+                          'order'       => 'DESC'
+                        ));
+            ?>
+                    
+                    <!-- the loop -->
+            <?php while ( $the_query->have_posts() ) : $the_query->the_post(); ?>
+              <li class="lanas sli">
+              <div class="large-5 columns desc">
+                    <h1><?php the_title(); ?></h1>
+                    <span class="categoria">Articulos de Lana</span>
+                    <?php the_content(); ?>
+              </div>
+              <div class="large-7 columns">
+                  <?php the_post_thumbnail("slides");?>
+              </div>
+            </li>
+            <?php endwhile; ?>
+            <!-- end of the loop -->
             <li class="lanas sli">
               <div class="large-5 columns desc">
                     <h1>Lanas</h1>
