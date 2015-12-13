@@ -53,7 +53,9 @@
                   <div class="producto <?php the_category_unlinked(); ?>">
                       <?php the_post_thumbnail("producto"); ?>
                       <div class="info text-center">
-                          <?php the_title() ?> <br>
+                        <div class="titulop">
+                          <?php the_title(); ?>
+                        </div> 
                           <div class="precio">$25.000</div>
                       </div>
                   </div>
