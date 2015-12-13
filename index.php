@@ -17,7 +17,7 @@
                     
                     <!-- the loop -->
             <?php while ( $the_query->have_posts() ) : $the_query->the_post(); ?>
-              <li class="<?php the_field("categoria"); ?> sli">
+              <li class="c<?php the_field("categoria"); ?> sli">
               <div class="large-5 columns desc">
                     <h1><?php the_title(); ?></h1>
                     <span class="categoria">Articulos de Lana</span>
