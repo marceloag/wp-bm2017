@@ -31,7 +31,9 @@
 			<?php while (have_posts()) : the_post(); ?>
 			<li>
 				<div class="producto <?php the_category_unlinked(); ?>">
-					<?php the_post_thumbnail("producto"); ?>
+					<a href=" <?php the_permalink(); ?> ">
+                        <?php the_post_thumbnail("producto"); ?>
+                    </a>
 					<div class="info text-center">
                         <div class="titulop">
                         	<?php the_title(); ?>

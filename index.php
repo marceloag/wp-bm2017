@@ -49,9 +49,11 @@
           
           <!-- the loop -->
           <?php while ( $the_query->have_posts() ) : $the_query->the_post(); ?>
-              <li >
+              <li>
                   <div class="producto <?php the_category_unlinked(); ?>">
-                      <?php the_post_thumbnail("producto"); ?>
+                      <a href=" <?php the_permalink(); ?> ">
+                        <?php the_post_thumbnail("producto"); ?>
+                      </a>
                       <div class="info text-center">
                         <div class="titulop">
                           <?php the_title(); ?>
