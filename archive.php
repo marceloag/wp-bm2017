@@ -30,7 +30,7 @@
 		<ul class="large-block-grid-4">
 			<?php while (have_posts()) : the_post(); ?>
 			<li>
-				<div class="producto">
+				<div class="producto <?php the_category_unlinked(); ?>">
 					<?php the_post_thumbnail("producto"); ?>
 					<div class="info text-center">
                         <div class="titulop">
