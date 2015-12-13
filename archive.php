@@ -33,7 +33,9 @@
 				<div class="producto">
 					<?php the_post_thumbnail("producto"); ?>
 					<div class="info text-center">
-                        <?php the_title(); ?><br>
+                        <div class="titulop">
+                        	<?php the_title(); ?>
+                        </div> 
                           <div class="precio"><?php echo get_field("precio"); ?></div>
                     </div>
 				</div>
