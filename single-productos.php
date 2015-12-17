@@ -37,7 +37,7 @@
 				<?php the_content(); ?>
 				<div class="row collapse">
 					<div class="precio">
-							<?php the_field("precio"); ?>
+							$ <?php the_field("precio"); ?>
 					</div>
 				</div>
 				<a data-reveal-id="pago" class="button tiny alert comprar">
