@@ -20,7 +20,7 @@
               <li class="c<?php the_field("categoria"); ?> sli">
               <div class="large-5 columns desc">
                     <h1><?php the_title(); ?></h1>
-                    <span class="categoria">Articulos de Lana</span>
+                    <span class="categoria"><?php  ?></span>
                     <?php the_content(); ?>
               </div>
               <div class="large-7 columns">
@@ -58,7 +58,7 @@
                         <div class="titulop">
                           <?php the_title(); ?>
                         </div> 
-                          <div class="precio">$25.000</div>
+                          <div class="precio"><?php the_field("precio"); ?></div>
                       </div>
                   </div>
               </li>
