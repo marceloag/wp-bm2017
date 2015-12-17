@@ -9,7 +9,7 @@
 		<h3><?php the_title(); ?></h3>
 		<?php the_content(); ?>
 		<a href="" class="button tiny alert comprar">
-			<i  class="fa fa-cart"></i> Comprar
+			<i  class="fa fa-cart-plus"></i>  Comprar
 		</a>
 	<?php endwhile; endif; ?>
 	</div>
