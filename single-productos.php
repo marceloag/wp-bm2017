@@ -36,8 +36,10 @@
 				</div>
 				<?php the_content(); ?>
 				<div class="row collapse">
-					<div class="preciosingle">
-							$ <?php the_field("precio"); ?>
+					<div class="cat <?php the_category_unlinked(); ?>">
+						<div class="precio">
+								$ <?php the_field("precio"); ?>
+						</div>
 					</div>
 				</div>
 				<a data-reveal-id="pago" class="button tiny alert comprar">
