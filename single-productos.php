@@ -39,7 +39,7 @@
 					<div class="<?php the_category_unlinked(); ?>">
 						<div class="row collapse">
 							<div class="large-6 columns">
-								<div class="precio pfull">
+								<div class="precio pfull small-text-center large-text-left">
 									$ <?php the_field("precio"); ?>
 								</div>
 							</div>
