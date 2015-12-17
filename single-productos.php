@@ -5,7 +5,7 @@
 		<div class="large-12 columns large-centered">
 			<div class="large-7 columns">
 				<!-- <?php the_post_thumbnail("producto"); ?> -->
-			<ul class="example-orbit" data-orbit data-options="slide_number:false">
+			<ul class="example-orbit" data-orbit data-options="slide_number:false;pause_on_hover:false;timer_speed: 4000">
 				<?php
 	              	$attachments = get_children(array('post_parent' => $post->ID,
 	                                      'post_status' => 'inherit',
