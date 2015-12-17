@@ -31,6 +31,9 @@
 			<div class="large-5 columns">
 			<?php if (have_posts()) : while (have_posts()) : the_post(); ?>
 				<h3><?php the_title(); ?></h3>
+				<div class="codigo">
+						<?php the_field("codigo"); ?>
+				</div>
 				<?php the_content(); ?>
 				<a data-reveal-id="pago" class="button tiny alert comprar">
 					<i  class="fa fa-cart-plus"></i>  Comprar
