@@ -180,6 +180,64 @@ h2, h3{
 	}
 }
 
+.cat{
+	.cuero{
+		background-color: none;
+		img{
+			border-bottom: 4px solid #854C3F;
+		}
+		.precio{
+			display: inline-block;
+			color: white;
+			padding: .6em;
+			background-color: #854C3F;
+			font-family: 'Georgia';
+		}
+	}
+
+	.lana{
+		background-color: none;
+		img{
+			border-bottom: 4px solid #C8A731;
+		}
+		.precio{
+			display: inline-block;
+			color: white;
+			padding: .6em;
+			background-color: #C8A731;
+			font-family: 'Georgia';
+		}
+	}
+
+	.madera{
+		background-color: none;
+		img{
+			border-bottom: 4px solid #C5598C;
+		}
+		.precio{
+			display: inline-block;
+			color: white;
+			padding: .6em;
+			background-color: #C5598C;
+			font-family: 'Georgia';
+		}
+	}
+
+	.telas{
+		background-color: none;
+		img{
+			border-bottom: 4px solid #968E39;
+		}
+		.precio{
+			display: inline-block;
+			color: white;
+			padding: .6em;
+			background-color: #968E39;
+			font-family: 'Georgia';
+		}
+	}
+}
+
 // 
 
 .dato{
