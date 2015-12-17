@@ -20,7 +20,7 @@
               <li class="c<?php the_field("categoria"); ?> sli">
               <div class="large-5 columns desc">
                     <h1><?php the_title(); ?></h1>
-                    <span class="categoria"><?php  ?></span>
+                    <span class="categoria">Articulos de <?php the_field('categoria'); ?></span>
                     <?php the_content(); ?>
               </div>
               <div class="large-7 columns">
