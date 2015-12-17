@@ -70,6 +70,13 @@
   </ul>
   <p>En ambos casos enviar correo a ventas@fibrasycolores.cl informando la realización del pago e indicando el N° de Pedido correspondiente,  a fin de proceder  al despacho de la mercadería.</p>	
 
+  <h2>DESPACHO:</h2>
+  
+	<p><b>Dentro de Punta Arenas</b> (radio urbano)  Sin costo adicional, plazo máximo 24 horas.</p>
+	<p><b>Despacho fuera  de Punta Arenas</b>:  Los despachos fuera de Punta Arenas se realizan a través de transporte externo que el cliente defina (Chilexpress, Correos de Chile, Turbus cargo, Pullman Cargo)</p>
+
+	<p>El pago del  envío es por cargo del cliente, el cual debe ser cancelado al recibir el producto.</p>
+
   <a class="close-reveal-modal" aria-label="Close">&#215;</a>
 </div>
 
