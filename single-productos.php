@@ -37,7 +37,7 @@
 				<?php the_content(); ?>
 				<div class="row collapse cat">
 					<div class="<?php the_category_unlinked(); ?>">
-						<div class="row">
+						<div class="row collapse">
 							<div class="large-6 columns">
 								<div class="precio pfull">
 									$ <?php the_field("precio"); ?>
