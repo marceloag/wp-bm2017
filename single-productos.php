@@ -35,6 +35,11 @@
 						<?php the_field("codigo"); ?>
 				</div>
 				<?php the_content(); ?>
+				<div class="row collapse">
+					<div class="precio">
+							<?php the_field("precio"); ?>
+					</div>
+				</div>
 				<a data-reveal-id="pago" class="button tiny alert comprar">
 					<i  class="fa fa-cart-plus"></i>  Comprar
 				</a>
