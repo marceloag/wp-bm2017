@@ -322,8 +322,10 @@ h2, h3{
 	background-color: #325C86;
 }
 
-.sin.lana.madera {
+.sin{
+	.lana, .madera, .cuero, .telas{
     background: none !important;
     padding-bottom: 0;
     margin-bottom: 0;
+    }
 }

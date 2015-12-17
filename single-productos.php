@@ -36,7 +36,7 @@
 				</div>
 				<?php the_content(); ?>
 				<div class="row collapse cat">
-					<div class="<?php the_category_unlinked(); ?>">
+					<div class="sin <?php the_category_unlinked(); ?>">
 						<div class="row collapse">
 							<div class="large-6 columns">
 								<div class="precio pfull small-text-center large-text-left">
