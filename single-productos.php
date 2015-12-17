@@ -39,12 +39,12 @@
 					<div class="<?php the_category_unlinked(); ?>">
 						<div class="row">
 							<div class="large-6 columns">
-								<div class="precio">
+								<div class="precio pfull">
 									$ <?php the_field("precio"); ?>
 								</div>
 							</div>
 							<div class="large-6 columns">
-								<a data-reveal-id="pago" class="button tiny alert comprar">
+								<a data-reveal-id="pago" class="button tiny alert comprar cfull">
 									<i  class="fa fa-cart-plus"></i>  Comprar
 								</a>
 							</div>

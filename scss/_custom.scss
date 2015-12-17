@@ -182,7 +182,7 @@ h2, h3{
 
 .cat{
 	.cuero{
-		background-color: none;
+		background-color: none !important;
 		img{
 			border-bottom: 4px solid #854C3F;
 		}
@@ -196,7 +196,7 @@ h2, h3{
 	}
 
 	.lana{
-		background-color: none;
+		background-color: none !important;
 		img{
 			border-bottom: 4px solid #C8A731;
 		}
@@ -210,7 +210,7 @@ h2, h3{
 	}
 
 	.madera{
-		background-color: none;
+		background-color: none !important;
 		img{
 			border-bottom: 4px solid #C5598C;
 		}
@@ -224,7 +224,7 @@ h2, h3{
 	}
 
 	.telas{
-		background-color: none;
+		background-color: none !important;
 		img{
 			border-bottom: 4px solid #968E39;
 		}
@@ -296,4 +296,11 @@ h2, h3{
 	overflow: hidden;
 	visibility: visible;
 	z-index: 999;
+}
+
+.pfull,.cfull{
+	width: 100%;
+}
+.cfull{
+	padding: 1.4em;
 }
