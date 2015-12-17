@@ -86,13 +86,13 @@
 
   <header>
       <div class="row">
-          <div class="large-2 columns">
+          <div class="large-4 columns">
               <a href="<?php bloginfo("url"); ?>">
               	<img src="<?php bloginfo('template_directory'); ?>/images/logo.png">
               </a>
           </div>
           <div class="large-8 columns">
-          	    <div class="large-4 columns right text-right">
+          	    <div class="large-3 columns right text-right">
               		<div class="fb">
               				<i class="fa fa-facebook"></i>
               		</div>
