@@ -4,8 +4,8 @@
               <img src="<?php bloginfo('template_directory'); ?>/images/webpay.png" alt="">
           </div>
           <div class="large-6 columns large-centered text-center dato">
-            Fibras y Colores de la Patagonia, Punta Arenas Dirección #123,<br> 
-            contacto@fibrasycolores.cl, Fono: +56 61 222222
+            Fibras y Colores de la Patagonia, Punta Arenas<br> 
+            contacto@fibrasycolores.cl, Fonos: +56 61 2232846 - +56 968363067
           </div>
       </div>
   </footer>
