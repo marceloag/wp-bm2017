@@ -103,7 +103,7 @@
               				<i class="fa fa-instagram"></i>
               		</div>
               </div>
-              <div class="large-5 columns right">
+              <div class="large-5 columns right show-for-medium-up">
                   <input type="text" class="buscar">
               </div>
               <div class="large-12 columns">
