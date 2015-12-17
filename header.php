@@ -86,7 +86,7 @@
 
   <header>
       <div class="row">
-          <div class="large-4 columns">
+          <div class="large-2 columns">
               <a href="<?php bloginfo("url"); ?>">
               	<img src="<?php bloginfo('template_directory'); ?>/images/logo.png">
               </a>
