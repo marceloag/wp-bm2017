@@ -32,7 +32,7 @@
 			<?php if (have_posts()) : while (have_posts()) : the_post(); ?>
 				<h3><?php the_title(); ?></h3>
 				<div class="codigo">
-						<?php the_field("codigo"); ?>
+						<?php the_field("codigo"); ?><br>
 				</div>
 				<?php the_content(); ?>
 				<div class="row collapse">
