@@ -60,7 +60,7 @@
 <div id="pago" class="reveal-modal" data-reveal aria-labelledby="Pago" aria-hidden="true" role="dialog">
   <h2 id="firstModalTitle">FORMAS DE PAGO:</h2>
   <ul>
-  	<li>A través de Webpay.cl</li>
+  	<li>A través de Webpay.cl <div class="alert">Disponible desde la próxima semana</div></li>
   	<li>Mediante transferencia electrónica:<br>
 		María Carolina Fernández Olivo<br>
 		RUT. 10.069.078-0<br>
