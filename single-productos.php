@@ -4,7 +4,7 @@
 	<div class="large-8 columns large-centered">
 	<?php if (have_posts()) : while (have_posts()) : the_post(); ?>
 
-		<?php the_post_thumbnail(); ?>
+		<?php the_post_thumbnail("producto"); ?>
 		<h3><?php the_title(); ?></h3>
 
 		<?php the_content(); ?>
