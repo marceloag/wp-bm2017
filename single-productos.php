@@ -41,10 +41,18 @@
 	</div>
 
 <div id="pago" class="reveal-modal" data-reveal aria-labelledby="Pago" aria-hidden="true" role="dialog">
-  <h2 id="firstModalTitle">Pago</h2>
-  <p>Reveal makes these very easy to summon and dismiss. The close button is simply an anchor with a unicode character icon and a class of <code>close-reveal-modal</code>. Clicking anywhere outside the modal will also dismiss it.</p>
-  <p>Finally, if your modal summons another Reveal modal, the plugin will handle that for you gracefully.</p>
-  <p><a href="#" data-reveal-id="secondModal" class="secondary button">Second Modal...</a></p>
+  <h2 id="firstModalTitle">FORMAS DE PAGO:</h2>
+  <ul>
+  	<li>A través de Webpay.cl</li>
+  	<li>Mediante transferencia electrónica:<br>
+		María Carolina Fernández Olivo<br>
+		RUT. 10.069.078-0<br>
+		Banco de Crédito e Inversiones<br>
+		Cta.Cte. 86015463<br>
+		Email ventas@fibrasycolores.cl<br></li>
+  </ul>
+  <p>En ambos casos enviar correo a ventas@fibrasycolores.cl informando la realización del pago e indicando el N° de Pedido correspondiente,  a fin de proceder  al despacho de la mercadería.</p>	
+
   <a class="close-reveal-modal" aria-label="Close">&#215;</a>
 </div>
 
