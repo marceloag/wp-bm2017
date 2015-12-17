@@ -37,14 +37,21 @@
 				<?php the_content(); ?>
 				<div class="row collapse">
 					<div class="cat <?php the_category_unlinked(); ?>">
-						<div class="precio">
-								$ <?php the_field("precio"); ?>
+						<div class="row">
+							<div class="large-6 columns">
+								<div class="precio">
+									$ <?php the_field("precio"); ?>
+								</div>
+							</div>
+							<div class="large-6 columns">
+								<a data-reveal-id="pago" class="button tiny alert comprar">
+									<i  class="fa fa-cart-plus"></i>  Comprar
+								</a>
+							</div>
 						</div>
 					</div>
 				</div>
-				<a data-reveal-id="pago" class="button tiny alert comprar">
-					<i  class="fa fa-cart-plus"></i>  Comprar
-				</a>
+
 			<?php endwhile; endif; ?>
 			</div>
 		</div>	
