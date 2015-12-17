@@ -95,7 +95,7 @@
               <div class="large-5 columns right">
                   <input type="text" class="buscar">
               </div>
-              <div class="large-4 columns">
+              <div class="large-4 columns right">
               		<div class="fb">
               				<i class="fa fa-facebook"></i>
               		</div>
