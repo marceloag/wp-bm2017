@@ -92,10 +92,7 @@
               </a>
           </div>
           <div class="large-8 columns">
-              <div class="large-5 columns right">
-                  <input type="text" class="buscar">
-              </div>
-              <div class="large-4 columns right">
+          	    <div class="large-4 columns right text-right">
               		<div class="fb">
               				<i class="fa fa-facebook"></i>
               		</div>
@@ -105,6 +102,9 @@
               		<div class="ig">
               				<i class="fa fa-instagram"></i>
               		</div>
+              </div>
+              <div class="large-5 columns right">
+                  <input type="text" class="buscar">
               </div>
               <div class="large-12 columns">
 				<?php wp_nav_menu( array( 'theme_location' => 'mainmenu' , 'menu_class' => 'mainmenu text-right') ); ?>
