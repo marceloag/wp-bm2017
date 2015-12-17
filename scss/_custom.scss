@@ -226,6 +226,10 @@ h2, h3{
 	
 }
 
+.codigosingle{
+	@extend .codigo;
+}
+
 .mainmenu li:hover .sub-menu, .mainmenu li:focus .sub-menu{
 	opacity: 1;
 	overflow: hidden;

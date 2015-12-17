@@ -31,12 +31,12 @@
 			<div class="large-5 columns">
 			<?php if (have_posts()) : while (have_posts()) : the_post(); ?>
 				<h3><?php the_title(); ?></h3>
-				<div class="codigo">
+				<div class="codigosingle">
 						<?php the_field("codigo"); ?><br>
 				</div>
 				<?php the_content(); ?>
 				<div class="row collapse">
-					<div class="precio">
+					<div class="preciosingle">
 							$ <?php the_field("precio"); ?>
 					</div>
 				</div>
