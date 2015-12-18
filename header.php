@@ -9,7 +9,7 @@
 <head id="www-sitename-com" data-template-set="html5-reset-wordpress-theme" profile="http://gmpg.org/xfn/11">
 
 	<meta charset="<?php bloginfo('charset'); ?>">
-	<!-- <meta name="viewport" content="width=device-width, initial-scale=1" /> -->
+	<meta name="viewport" content="width=device-width, initial-scale=1" />
 	<!-- Always force latest IE rendering engine (even in intranet) & Chrome Frame -->
 	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
 	
