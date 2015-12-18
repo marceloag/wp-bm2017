@@ -27,7 +27,7 @@
 			
 		<?php } ?>
 		<!--  -->
-		<ul class="large-block-grid-4">
+		<ul class="large-block-grid-4 small-block-grid-2">
 			<?php while (have_posts()) : the_post(); ?>
 			<li>
 				<div class="producto <?php the_category_unlinked(); ?>">
@@ -38,7 +38,7 @@
                         <div class="titulop">
                         	<?php the_title(); ?>
                         </div> 
-                          <div class="precio"><?php echo get_field("precio"); ?></div>
+                          <div class="precio">$<?php echo get_field("precio"); ?></div>
                     </div>
 				</div>
 			</li>
