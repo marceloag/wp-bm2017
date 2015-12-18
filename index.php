@@ -58,7 +58,7 @@
                         <div class="titulop">
                           <?php the_title(); ?>
                         </div> 
-                          <div class="precio"><?php the_field("precio"); ?></div>
+                          <div class="precio">$<?php the_field("precio"); ?></div>
                       </div>
                   </div>
               </li>
