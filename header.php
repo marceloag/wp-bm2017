@@ -73,7 +73,8 @@
 	<link rel="pingback" href="<?php bloginfo('pingback_url'); ?>" />
 <!-- Font Awesome -->
 	<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css" rel="stylesheet">
-
+<!-- Web Fonts -->
+	<link href='https://fonts.googleapis.com/css?family=Roboto:400,100,300|Roboto+Slab:400,700,300' rel='stylesheet' type='text/css'>
 <!-- Facebook Image -->
 	<link rel="image_src" href="" />
 <!-- Facebook Image -->
