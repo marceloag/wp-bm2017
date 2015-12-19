@@ -108,7 +108,7 @@
                   <input type="text" class="buscar">
               </div>
               <div class="large-12 columns">
-				<?php wp_nav_menu( array( 'theme_location' => 'mainmenu' , 'menu_class' => 'mainmenu text-right') ); ?>
+				<?php wp_nav_menu( array( 'theme_location' => 'mainmenu' , 'menu_class' => 'mainmenu large-text-right small-text-center') ); ?>
               </div>
           </div>
       </div>
