@@ -93,7 +93,7 @@
               </a>
           </div>
           <div class="large-8 columns">
-          	    <div class="large-3 columns right text-right">
+          	    <div class="large-3 columns right large-text-right small-text-center">
               		<div class="fb">
               				<i class="fa fa-facebook"></i>
               		</div>
