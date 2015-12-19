@@ -110,4 +110,7 @@ function alx_thumbnail_upscale( $default, $orig_w, $orig_h, $new_w, $new_h, $cro
 }
 add_filter( 'image_resize_dimensions', 'alx_thumbnail_upscale', 10, 6 );
 
+add_filter( 'max_srcset_image_width', create_function( '', 'return 1;' ) );
+
+
 ?>
