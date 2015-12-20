@@ -65,7 +65,7 @@
 		María Carolina Fernández Olivo<br>
 		RUT. 10.069.078-0<br>
 		Banco de Crédito e Inversiones<br>
-		Cta.Cte. 86015463<br>
+		Cta.Cte. 87015463<br>
 		Email ventas@fibrasycolores.cl<br></li>
   </ul>
   <p>En ambos casos enviar correo a ventas@fibrasycolores.cl informando la realización del pago e indicando el N° de Pedido correspondiente,  a fin de proceder  al despacho de la mercadería.</p>	
