@@ -113,5 +113,12 @@ add_filter( 'image_resize_dimensions', 'alx_thumbnail_upscale', 10, 6 );
 
 add_filter( 'max_srcset_image_width', create_function( '', 'return 1;' ) );
 
+// Disable srcset
+
+function disable_srcset( $sources ) {
+return false;
+}
+add_filter( 'wp_calculate_image_srcset', 'disable_srcset' );
+
 
 ?>
