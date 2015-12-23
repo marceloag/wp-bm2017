@@ -32,7 +32,7 @@
 			<li>
 				<div class="producto <?php the_category_unlinked(); ?>">
 					<a href=" <?php the_permalink(); ?> ">
-                        <?php the_post_thumbnail("productotop"); ?>
+                        <?php the_post_thumbnail("full"); ?>
                     </a>
 					<div class="info text-center">
                         <div class="titulop">
