@@ -15,7 +15,7 @@
 	                                      'orderby' => 'menu_order ID'));
 
 	              	foreach($attachments as $att_id => $attachment) {
-	                  $full_img_url = wp_get_attachment_image($attachment->ID, "producto");
+	                  $full_img_url = wp_get_attachment_image($attachment->ID, "full");
 	                  $metaatt= wp_get_attachment( $attachment->ID );
 	                  ?>
 	                  <li>
