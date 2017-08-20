@@ -12,9 +12,9 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1" />
 	<!-- Always force latest IE rendering engine (even in intranet) & Chrome Frame -->
 	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-	
+
 	<?php if (is_search()) { ?>
-	<meta name="robots" content="noindex, nofollow" /> 
+	<meta name="robots" content="noindex, nofollow" />
 	<?php } ?>
 
 	<title>
@@ -37,7 +37,7 @@
 		         echo ' - page '. $paged; }
 		   ?>
 	</title>
-	
+
 	<meta name="title" content="<?php
 		      if (function_exists('is_tag') && is_tag()) {
 		         single_tag_title("Tag Archive for &quot;"); echo '&quot; - '; }
@@ -85,32 +85,15 @@
 </head>
 <body>
 
-  <header>
+  <header class="panel">
       <div class="row">
-          <div class="large-4 columns small-10 small-centered large-uncentered">
+          <div class="large-2 columns small-10 small-centered large-uncentered">
               <a href="<?php bloginfo("url"); ?>">
-              	<img src="<?php bloginfo('template_directory'); ?>/images/logo.png">
+									<img src="http://fakeimg.pl/600x400/00CED1/FFF/?text=img+placeholder">
               </a>
           </div>
           <div class="large-8 columns">
-          	    <div class="large-3 columns right large-text-right small-text-center">
-              		<div class="fb">
-              				<i class="fa fa-facebook"></i>
-              		</div>
-              		<div class="tw">
-              				<i class="fa fa-twitter"></i>
-              		</div>
-              		<div class="ig">
-              				<i class="fa fa-instagram"></i>
-              		</div>
-              </div>
-              <div class="large-5 columns right show-for-medium-up">
-                  <input type="text" class="buscar">
-              </div>
-              <div class="large-12 columns">
-				<?php wp_nav_menu( array( 'theme_location' => 'mainmenu' , 'menu_class' => 'mainmenu large-text-right small-text-center') ); ?>
-              </div>
+								<?php wp_nav_menu( array( 'theme_location' => 'mainmenu' , 'menu_class' => 'mainmenu large-text-right small-text-center') ); ?>
           </div>
       </div>
   </header>
-
