@@ -88,16 +88,17 @@
 <header>
     <div class="row full">
       <div class="large-4 columns  logo_header">
-        <img src="img/Logo.png" alt="">
+        <img src="<?php bloginfo('template_directory'); ?>/img/logo.png" alt="Buenos Muchachos">
       </div>
       
             <div class="large-8 columns">
-               <ul class="menu text-right">
+            	<?php wp_nav_menu( array( 'theme_location' => 'mainmenu' , 'menu_class' => 'menu large-text-right small-text-center') ); ?>
+<!--                <ul class="menu text-right">
                    <li class="activo">inicio</li>
                     <li>Quienes Somos</li>
                     <li>Portafolio</li>
                     <li>Contacto</li>
-               </ul> 
+               </ul>  -->
              </div>
        
                  <div class="large-4 columns text-right redes_sociales">
