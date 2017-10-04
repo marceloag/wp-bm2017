@@ -1,7 +1,7 @@
 <footer>
     <div class="row full">
         <div class="large-4 columns logo_header">
-            <img src="<?php bloginfo('template_directory'); ?/img/logo.png" alt="">
+            <img src="<?php bloginfo('template_directory'); ?>/img/logo.png" alt="">
         </div>
         
         <div class="large-8 columns text-right texto_footer">
