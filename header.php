@@ -93,32 +93,13 @@
       
             <div class="large-8 columns">
             	<?php wp_nav_menu( array( 'theme_location' => 'mainmenu' , 'menu_class' => 'menu large-text-right small-text-center') ); ?>
-<!--                <ul class="menu text-right">
-                   <li class="activo">inicio</li>
-                    <li>Quienes Somos</li>
-                    <li>Portafolio</li>
-                    <li>Contacto</li>
-               </ul>  -->
              </div>
        
                  <div class="large-4 columns text-right redes_sociales">
-                      <a href="#"><img src="<?php bloginfo('template_directory');?>img/icon_facebook.png" alt="" class="facebook"></a> 
-                      <a href="#"><img src="<?php bloginfo('template_directory');?>img/icon_instagram.png" alt="" class="instagram"></a> 
-                      <a href="#"><img src="<?php bloginfo('template_directory');?>img/icon_twitter.png" alt="" class="twitter"></a> 
-                      <a href="#"><img src="<?php bloginfo('template_directory');?>img/icon_youtube.png" alt="" class="youtube"></a> 
+                      <a href="#"><img src="<?php bloginfo('template_directory');?>/img/icon_facebook.png" alt="" class="facebook"></a> 
+                      <a href="#"><img src="<?php bloginfo('template_directory');?>/img/icon_instagram.png" alt="" class="instagram"></a> 
+                      <a href="#"><img src="<?php bloginfo('template_directory');?>/img/icon_twitter.png" alt="" class="twitter"></a> 
+                      <a href="#"><img src="<?php bloginfo('template_directory');?>/img/icon_youtube.png" alt="" class="youtube"></a> 
                  </div>
     </div>
 </header>
-
-  <header class="panel">
-      <div class="row">
-          <div class="large-2 columns small-10 small-centered large-uncentered">
-              <a href="<?php bloginfo("url"); ?>">
-									<img src="http://fakeimg.pl/600x400/00CED1/FFF/?text=img+placeholder">
-              </a>
-          </div>
-          <div class="large-8 columns">
-								<?php wp_nav_menu( array( 'theme_location' => 'mainmenu' , 'menu_class' => 'mainmenu large-text-right small-text-center') ); ?>
-          </div>
-      </div>
-  </header>
