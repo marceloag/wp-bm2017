@@ -5955,7 +5955,7 @@
 		"oF": 0
 		},
 	"\/config.rb": {
-		"ft": 8192,
+		"ft": 131072,
 		"oA": 0,
 		"oAP": "\/config.rb",
 		"oF": 0
@@ -6005,6 +6005,254 @@
 		"oA": 2,
 		"oAP": "\/humans.txt",
 		"oF": 0
+		},
+	"\/img\/.gitkeep": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/img\/.gitkeep",
+		"oF": 0
+		},
+	"\/img\/icon_cinema.png": {
+		"ft": 32768,
+		"iS": 17786,
+		"oA": 0,
+		"oAP": "\/img\/icon_cinema.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/img\/icon_facebook.png": {
+		"ft": 32768,
+		"iS": 675,
+		"oA": 0,
+		"oAP": "\/img\/icon_facebook.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/img\/icon_instagram.png": {
+		"ft": 32768,
+		"iS": 20471,
+		"oA": 0,
+		"oAP": "\/img\/icon_instagram.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/img\/icon_publicidad.png": {
+		"ft": 32768,
+		"iS": 19004,
+		"oA": 0,
+		"oAP": "\/img\/icon_publicidad.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/img\/icon_twitter.png": {
+		"ft": 32768,
+		"iS": 20278,
+		"oA": 0,
+		"oAP": "\/img\/icon_twitter.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/img\/icon_video.png": {
+		"ft": 32768,
+		"iS": 18625,
+		"oA": 0,
+		"oAP": "\/img\/icon_video.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/img\/icon_youtube.png": {
+		"ft": 32768,
+		"iS": 19954,
+		"oA": 0,
+		"oAP": "\/img\/icon_youtube.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/img\/img_quienes somos.png": {
+		"ft": 32768,
+		"iS": 30444,
+		"oA": 0,
+		"oAP": "\/img\/img_quienes somos.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/img\/Logo.png": {
+		"ft": 32768,
+		"iS": 21174,
+		"oA": 0,
+		"oAP": "\/img\/Logo.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/img\/logo_buena_mesa.png": {
+		"ft": 32768,
+		"iS": 37378,
+		"oA": 0,
+		"oAP": "\/img\/logo_buena_mesa.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/img\/logo_chile_crece.png": {
+		"ft": 32768,
+		"iS": 37476,
+		"oA": 0,
+		"oAP": "\/img\/logo_chile_crece.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/img\/logo_dap.png": {
+		"ft": 32768,
+		"iS": 49064,
+		"oA": 0,
+		"oAP": "\/img\/logo_dap.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/img\/logo_gobierno.png": {
+		"ft": 32768,
+		"iS": 43112,
+		"oA": 0,
+		"oAP": "\/img\/logo_gobierno.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/img\/logo_hoteles.png": {
+		"ft": 32768,
+		"iS": 31821,
+		"oA": 0,
+		"oAP": "\/img\/logo_hoteles.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/img\/logo_rally.png": {
+		"ft": 32768,
+		"iS": 35016,
+		"oA": 0,
+		"oAP": "\/img\/logo_rally.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/img\/logo_recasur.png": {
+		"ft": 32768,
+		"iS": 23292,
+		"oA": 0,
+		"oAP": "\/img\/logo_recasur.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/img\/logo_se_vende.png": {
+		"ft": 32768,
+		"iS": 64276,
+		"oA": 0,
+		"oAP": "\/img\/logo_se_vende.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/img\/logo_tiempo.png": {
+		"ft": 32768,
+		"iS": 37619,
+		"oA": 0,
+		"oAP": "\/img\/logo_tiempo.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/img\/logo_tv_red.png": {
+		"ft": 32768,
+		"iS": 42183,
+		"oA": 0,
+		"oAP": "\/img\/logo_tv_red.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/img\/logo_udemagallanes.png": {
+		"ft": 32768,
+		"iS": 73440,
+		"oA": 0,
+		"oAP": "\/img\/logo_udemagallanes.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/img\/slider_1.png": {
+		"ft": 32768,
+		"iS": 418368,
+		"oA": 0,
+		"oAP": "\/img\/slider_1.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/img\/textura_portafolio.png": {
+		"ft": 32768,
+		"iS": 429323,
+		"oA": 0,
+		"oAP": "\/img\/textura_portafolio.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
 		},
 	"\/index.php": {
 		"ft": 8192,
@@ -6432,7 +6680,7 @@
 	},
 "projectAttributes": {
 	"creationDate": 524933380,
-	"displayValue": "WP-FD5-Compass",
+	"displayValue": "wp-bm2017",
 	"displayValueWasSetByUser": 0,
 	"iconImageName": "meme-obama"
 	},

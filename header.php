@@ -74,7 +74,7 @@
 <!-- Font Awesome -->
 	<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css" rel="stylesheet">
 <!-- Web Fonts -->
-	<link href='https://fonts.googleapis.com/css?family=Roboto:400,100,300|Roboto+Slab:400,700,300' rel='stylesheet' type='text/css'>
+	<link href="https://fonts.googleapis.com/css?family=Oswald" rel="stylesheet">
 <!-- Facebook Image -->
 	<link rel="image_src" href="" />
 <!-- Facebook Image -->
@@ -84,6 +84,30 @@
 
 </head>
 <body>
+
+<header>
+    <div class="row full">
+      <div class="large-4 columns  logo_header">
+        <img src="img/Logo.png" alt="">
+      </div>
+      
+            <div class="large-8 columns">
+               <ul class="menu text-right">
+                   <li class="activo">inicio</li>
+                    <li>Quienes Somos</li>
+                    <li>Portafolio</li>
+                    <li>Contacto</li>
+               </ul> 
+             </div>
+       
+                 <div class="large-4 columns text-right redes_sociales">
+                      <a href="#"><img src="<?php bloginfo("template_directory")/ ?>img/icon_facebook.png" alt="" class="facebook"></a> 
+                      <a href="#"><img src="<?php bloginfo("template_directory")/ ?>img/icon_instagram.png" alt="" class="instagram"></a> 
+                      <a href="#"><img src="<?php bloginfo("template_directory")/ ?>img/icon_twitter.png" alt="" class="twitter"></a> 
+                      <a href="#"><img src="<?php bloginfo("template_directory")/ ?>img/icon_youtube.png" alt="" class="youtube"></a> 
+                 </div>
+    </div>
+</header>
 
   <header class="panel">
       <div class="row">
