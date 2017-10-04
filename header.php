@@ -102,10 +102,10 @@
              </div>
        
                  <div class="large-4 columns text-right redes_sociales">
-                      <a href="#"><img src="<?php bloginfo('template_directory')/ ?>img/icon_facebook.png" alt="" class="facebook"></a> 
-                      <a href="#"><img src="<?php bloginfo('template_directory')/ ?>img/icon_instagram.png" alt="" class="instagram"></a> 
-                      <a href="#"><img src="<?php bloginfo('template_directory')/ ?>img/icon_twitter.png" alt="" class="twitter"></a> 
-                      <a href="#"><img src="<?php bloginfo('template_directory')/ ?>img/icon_youtube.png" alt="" class="youtube"></a> 
+                      <a href="#"><img src="<?php bloginfo('template_directory');?>img/icon_facebook.png" alt="" class="facebook"></a> 
+                      <a href="#"><img src="<?php bloginfo('template_directory');?>img/icon_instagram.png" alt="" class="instagram"></a> 
+                      <a href="#"><img src="<?php bloginfo('template_directory');?>img/icon_twitter.png" alt="" class="twitter"></a> 
+                      <a href="#"><img src="<?php bloginfo('template_directory');?>img/icon_youtube.png" alt="" class="youtube"></a> 
                  </div>
     </div>
 </header>
