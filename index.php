@@ -1,29 +1,14 @@
 <?php get_header(); ?>
 
-
 <section>
     <!-- SLIDER -->
     <div class="row collapse full">
         <div class="large-12 columns">
               <ul class="example-orbit" data-orbit data-options="bullets:false;slide_number:false">
 
-              <li class="active">
-                <img src="<?php bloginfo('template_directory'); ?>/img/slider_1.png" alt="slide 1" />
-
-<<<<<<< HEAD
-=======
-                     <div class="caption">
-                       <h1 class="titulo_slider">Lorem Imput</h1>
-                            <p class="texto_slider">
-                              Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt.
-                            </p>
-                     </div>
-               </li>
-
                <li class="active">
                 <img src="<?php bloginfo('template_directory'); ?>/img/slider_1.png" alt="slide 1" />
 
->>>>>>> bf7a723cb9b0f5ea5020e3af760bb9bb4df71e9d
                      <div class="caption">
                        <h1 class="titulo_slider">Producción Audiovisual</h1>
                             <p class="texto_slider">
@@ -32,13 +17,6 @@
                      </div>
                </li>
             </ul>
-<<<<<<< HEAD
-=======
-
-
-
-
->>>>>>> bf7a723cb9b0f5ea5020e3af760bb9bb4df71e9d
         </div>
     </div>
 
