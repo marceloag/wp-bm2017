@@ -7,12 +7,15 @@
               <ul class="example-orbit" data-orbit data-options="bullets:false;slide_number:false">
                <li class="active">
                 <img src="<?php bloginfo('template_directory'); ?>/img/slider_1.png" alt="slide 1" />
-                     <div class="caption">
-                       <h1 class="titulo_slider">Producción Audiovisual</h1>
-                            <p class="texto_slider">
-															Creativos, innovadores, transgresores, amantes de la Buena Mesa y que sin duda cada vez que nos confíen algún trabajo, ahí estaremos para cumplir tu  encargo. Sin dejar ningún rastro por más  difícil que sea, porque sellamos un compromiso.
-                            </p>
-                     </div>
+								<div class="large-6 columns">
+									<div class="caption">
+										<h1 class="titulo_slider">Producción Audiovisual</h1>
+												 <p class="texto_slider">
+													 Creativos, innovadores, transgresores, amantes de la Buena Mesa y que sin duda cada vez que nos confíen algún trabajo, ahí estaremos para cumplir tu  encargo. Sin dejar ningún rastro por más  difícil que sea, porque sellamos un compromiso.
+												 </p>
+									</div>
+								</div>
+
 										 <div class="large-6 columns"><img src="http://fakeimg.pl/350x200/00CED1/FFF/?text=img+placeholder"></div>
                </li>
             </ul>
