@@ -7,10 +7,10 @@
         <div class="large-8 columns text-right texto_footer">
             <p>Productora Buenos Muchachos <br> Fono: (+56)(09)92801305</p>
 
-                <a href="#"><img src="<?php bloginfo('template_directory'); ?>/img/icon_facebook.png" alt="" class="facebook"></a>
-                <a href="#"><img src="<?php bloginfo('template_directory'); ?>/img/icon_instagram.png" alt="" class="instagram"></a>
-                <a href="#"><img src="<?php bloginfo('template_directory'); ?>/img/icon_twitter.png" alt="" class="twitter"></a>
-                <a href="#"><img src="<?php bloginfo('template_directory'); ?>/img/icon_youtube.png" alt="" class="youtube"></a>
+						<a href="https://www.facebook.com/productorabuenosmuchachospuq/"><img src="<?php bloginfo('template_directory');?>/img/icon_facebook.png" alt="" class="facebook"></a>
+						<a href="http://www.instagram.com/productorabuenosmuchachos"><img src="<?php bloginfo('template_directory');?>/img/icon_instagram.png" alt="" class="instagram"></a>
+						<a href="http://www.twitter.com/productoraBM"><img src="<?php bloginfo('template_directory');?>/img/icon_twitter.png" alt="" class="twitter"></a>
+						<a href="https://www.youtube.com/channel/UCSeZNEF4NAaJ69ulAWYUAMg"><img src="<?php bloginfo('template_directory');?>/img/icon_youtube.png" alt="" class="youtube"></a>
 
         </div>
     </div>
