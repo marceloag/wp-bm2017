@@ -9,13 +9,13 @@
                 <img src="<?php bloginfo('template_directory'); ?>/img/slider_1.png" alt="slide 1" />
 									<div class="caption">
 										<div class="row">
-													<div class="large-6 columns">
+													<div class="large-7 columns">
 																<h1 class="titulo_slider">Producción Audiovisual</h1>
 																 <p class="texto_slider">
 																	 Creativos, innovadores, transgresores, amantes de la Buena Mesa y que sin duda cada vez que nos confíen algún trabajo, ahí estaremos para cumplir tu  encargo. Sin dejar ningún rastro por más  difícil que sea, porque sellamos un compromiso.
 																 </p>
 													</div>
-													<div class="large-6 columns">
+													<div class="large-5 columns">
 														<style>.embed-container { position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%; } .embed-container iframe, .embed-container object, .embed-container embed { position: absolute; top: 0; left: 0; width: 100%; height: 100%; }</style><div class='embed-container'><iframe src='https://www.youtube.com/embed/PmY0RY1nswg' frameborder='0' allowfullscreen></iframe></div>
 													</div>
 										</div>
