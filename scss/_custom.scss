@@ -1,5 +1,5 @@
 @import 'compass/css3';
-@import 'breakpoint';
+// @import 'breakpoint';
 @import 'colores';
 @import '_animate';
 @import '_utilities';
@@ -19,7 +19,7 @@
    width: 100% !important;
    margin-left: auto;
    margin-right: auto;
-   max-width: 100% !important; 
+   max-width: 100% !important;
 }
 
 
@@ -64,14 +64,14 @@ header{
 }
 
 .instagram{
-       height: 30px; 
+       height: 30px;
 }
 
 .twitter{
-       height: 30px; 
+       height: 30px;
 }
 .youtube{
-       height: 30px; 
+       height: 30px;
 }
 
 /*SLIDER*/
@@ -103,7 +103,7 @@ header{
 
 .titulo_quienes_somos{
     color: #edde00;
-    line-height: 1em; 
+    line-height: 1em;
     padding: 90px 0px 0px 30px;
     font-family: 'Oswald', sans-serif;
 }
@@ -125,11 +125,11 @@ header{
 }
 
 spam{
-  border-bottom: medium solid #edde00;  
+  border-bottom: medium solid #edde00;
 }
 
 .texto_servicio{
-     line-height: 1em; 
+     line-height: 1em;
      font-family: 'Oswald', sans-serif;
 }
 
@@ -154,7 +154,7 @@ spam{
 }
 
 .item{
-  padding: 0px 40px 0px 40px;  
+  padding: 0px 40px 0px 40px;
 }
 
 .owl-carousel{
@@ -184,7 +184,7 @@ h3{
 }
 
 .texto_programas{
-   padding: 40px 50px 10px 0px; 
+   padding: 40px 50px 10px 0px;
     font-family: 'Oswald', sans-serif;
 }
 
@@ -211,6 +211,7 @@ h1{
 
 .contacto{
     margin-top: 25px;
+		background-color: #ffc505;
 }
 
 .titulo_contacto{
@@ -245,18 +246,18 @@ button:hover{
 
 /*MAPA*/
 
-.embed-container { 
-    position:relative; 
-    padding-bottom: 72%; 
-    height: 0; 
-    overflow: hidden; 
-    max-width: 100%; } 
+.embed-container {
+    position:relative;
+    padding-bottom: 72%;
+    height: 0;
+    overflow: hidden;
+    max-width: 100%; }
 
-.embed-container iframe, .embed-container object, .embed-container embed { 
-    position: absolute; 
-    top: 0; 
-    left: 0; 
-    width: 100%; 
+.embed-container iframe, .embed-container object, .embed-container embed {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
     height: 100%;
 }
 
