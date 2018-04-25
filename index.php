@@ -104,7 +104,19 @@
 
 								          <!-- the loop -->
 									<?php while ( $the_query->have_posts() ) : $the_query->the_post(); ?>
-										<?php the_post_thumbnail();?>
+										<li class="item">
+											 <div class="row full contenedor_programa">
+													 <div class="large-5 medium-5 columns logo_programa">
+															 	<?php the_post_thumbnail();?>
+													 </div>
+
+													 <div class="large-7 medium-7 columns texto_programas">
+															<h3><?php the_title(); ?></h3>
+															 <?php the_excerpt(); ?>
+													 </div>
+											 </div>
+										</li>
+
 									<?php endwhile; ?>
 									<!-- end of the loop -->
 
