@@ -116,10 +116,9 @@
 													 </div>
 											 </div>
 										</li>
-
 									<?php endwhile; ?>
 									<!-- end of the loop -->
-
+<!--
                   <li class="item">
                      <div class="row full contenedor_programa">
                          <div class="large-5 medium-5 columns logo_programa">
@@ -170,7 +169,7 @@
                              <p>Programa de televisión, con la conducción de Pedro Maldonado y Yakov Masle, dedicado a la cobertura del rally regional, espacio <a href="#">[…]</a></p>
                          </div>
                      </div>
-                  </li>
+                  </li> -->
 
               </ul>
          </div>
