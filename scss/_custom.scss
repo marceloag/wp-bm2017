@@ -1,18 +1,7 @@
 @import 'compass/css3';
-// @import 'breakpoint';
 @import 'colores';
 @import '_animate';
 @import '_utilities';
-
-.sampleclass{
-	padding:0;
-		@include breakpoint($ipad) {
-			padding-bottom: 1em;
-  		}
-  		@include breakpoint($iphone) {
-			padding-bottom: 1em;
-  		}
-}
 
 /*CONTENEDOR*/
 .full{
