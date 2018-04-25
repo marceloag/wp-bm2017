@@ -26,7 +26,7 @@
     </div>
 
      <!-- QUIENES SOMOS -->
-    <div class="row full collapse">
+    <div class="row full collapse pbmnegro">
         <div class="large-6 columns quienes_somos">
             <h1 class="titulo_quienes_somos">Productora <br> Buenos Muchachos</h1>
 
@@ -92,6 +92,21 @@
      <div class="row collapse full">
          <div class="large-12 columns">
               <ul class="large-block-grid-2  medium-block-grid-2 small-block-grid-1">
+
+								          <?php
+								              $the_query = new WP_Query(array(
+								                'post_type' => 'post',
+								                'showposts' => 10,
+								                'category_name' => 'programas',
+								                'order'       => 'DESC'
+								              ));
+								          ?>
+
+								          <!-- the loop -->
+									<?php while ( $the_query->have_posts() ) : $the_query->the_post(); ?>
+										<?php the_post_thumbnail();?>
+									<?php endwhile; ?>
+									<!-- end of the loop -->
 
                   <li class="item">
                      <div class="row full contenedor_programa">
