@@ -90,7 +90,9 @@
 <header>
     <div class="row full">
       <div class="large-4 columns  logo_header">
-        <img src="<?php bloginfo('template_directory'); ?>/img/Logo.png" alt="Buenos Muchachos">
+        <a href="<?php bloginfo('url'); ?>">
+					<img src="<?php bloginfo('template_directory'); ?>/img/Logo.png" alt="Buenos Muchachos">
+				</a>
       </div>
 
             <div class="large-8 columns">
