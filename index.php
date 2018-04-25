@@ -198,11 +198,9 @@
 										 </div>
 									<?php endwhile; ?>
 									<!-- end of the loop -->
-                <div class="logos"> <img src="<?php bloginfo('template_directory'); ?>/img/logo_tv_red.png" alt=""> </div>
                 <div class="logos"> <img src="<?php bloginfo('template_directory'); ?>/img/logo_chile_crece.png" alt=""> </div>
                 <div class="logos"> <img src="<?php bloginfo('template_directory'); ?>/img/logo_dap.png" alt=""> </div>
                 <div class="logos"> <img src="<?php bloginfo('template_directory'); ?>/img/logo_gobierno.png" alt=""> </div>
-                <div class="logos"> <img src="<?php bloginfo('template_directory'); ?>/img/logo_recasur.png" alt=""> </div>
                 <div class="logos"> <img src="<?php bloginfo('template_directory'); ?>/img/logo_hoteles.png" alt=""> </div>
                 <div class="logos"> <img src="<?php bloginfo('template_directory'); ?>/img/logo_udemagallanes.png" alt=""> </div>
             </div>
