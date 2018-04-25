@@ -180,8 +180,24 @@
         <div class="large-12 columns text-center">
             <h1><spam>Nuestros</spam> Clientes</h1>
 
-         <div class="large-10 columns large-centered logos_publicidad">
-            <div class="owl-carousel owl-theme">
+								    <div class="large-10 columns large-centered logos_publicidad">
+								            <div class="owl-carousel owl-theme">
+															          <?php
+								              $the_query = new WP_Query(array(
+								                'post_type' => 'post',
+								                'showposts' => 10,
+								                'category_name' => 'clientes',
+								                'order'       => 'DESC'
+								              ));
+								     ?>
+
+								          <!-- the loop -->
+									<?php while ( $the_query->have_posts() ) : $the_query->the_post(); ?>
+										 <div class="logos">
+										 		<?php the_post_thumbnail( 'full'); ?>
+										 </div>
+									<?php endwhile; ?>
+									<!-- end of the loop -->
                 <div class="logos"> <img src="<?php bloginfo('template_directory'); ?>/img/logo_tv_red.png" alt=""> </div>
                 <div class="logos"> <img src="<?php bloginfo('template_directory'); ?>/img/logo_chile_crece.png" alt=""> </div>
                 <div class="logos"> <img src="<?php bloginfo('template_directory'); ?>/img/logo_dap.png" alt=""> </div>
