@@ -10,6 +10,20 @@
               <li class="active">
                 <img src="<?php bloginfo('template_directory'); ?>/img/slider_1.png" alt="slide 1" />
 
+<<<<<<< HEAD
+=======
+                     <div class="caption">
+                       <h1 class="titulo_slider">Lorem Imput</h1>
+                            <p class="texto_slider">
+                              Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt.
+                            </p>
+                     </div>
+               </li>
+
+               <li class="active">
+                <img src="<?php bloginfo('template_directory'); ?>/img/slider_1.png" alt="slide 1" />
+
+>>>>>>> bf7a723cb9b0f5ea5020e3af760bb9bb4df71e9d
                      <div class="caption">
                        <h1 class="titulo_slider">Producción Audiovisual</h1>
                             <p class="texto_slider">
@@ -18,6 +32,13 @@
                      </div>
                </li>
             </ul>
+<<<<<<< HEAD
+=======
+
+
+
+
+>>>>>>> bf7a723cb9b0f5ea5020e3af760bb9bb4df71e9d
         </div>
     </div>
 
@@ -181,7 +202,7 @@
 
          <div class="large-6 columns">
             <div class="embed-container">
-             <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2392.3347501771045!2d-70.90239268417355!3d-53.15803276337921!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xbdb2637f592fc0d9%3A0x1432269e02dd9821!2sCroop+Agencia+Digital!5e0!3m2!1ses!2scl!4v1492789219234" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe></div>
+             <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2392.7009827544653!2d-70.9111969842431!3d-53.15146077993863!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xbdb264811cf315e3%3A0xd951bac43d1a6eb0!2sAngamos+175%2C+Punta+Arenas%2C+Regi%C3%B3n+de+Magallanes+y+de+la+Ant%C3%A1rtica+Chilena!5e0!3m2!1ses!2scl!4v1516716946545" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe></div>
          </div>
      </div>
 </section>

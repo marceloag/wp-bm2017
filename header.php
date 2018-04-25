@@ -73,6 +73,8 @@
 	<link rel="pingback" href="<?php bloginfo('pingback_url'); ?>" />
 <!-- Font Awesome -->
 	<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css" rel="stylesheet">
+	<link rel="stylesheet" href="<?php bloginfo('template_directory'); ?>/css/owl.carousel.min.css">
+	<link rel="stylesheet" href="<?php bloginfo('template_directory'); ?>/css/owl.theme.default.min.css">
 <!-- Web Fonts -->
 	<link href="https://fonts.googleapis.com/css?family=Oswald" rel="stylesheet">
 <!-- Facebook Image -->
@@ -88,18 +90,18 @@
 <header>
     <div class="row full">
       <div class="large-4 columns  logo_header">
-        <img src="<?php bloginfo('template_directory'); ?>/img/logo.png" alt="Buenos Muchachos">
+        <img src="<?php bloginfo('template_directory'); ?>/img/Logo.png" alt="Buenos Muchachos">
       </div>
-      
+
             <div class="large-8 columns">
             	<?php wp_nav_menu( array( 'theme_location' => 'mainmenu' , 'menu_class' => 'menu large-text-right small-text-center') ); ?>
              </div>
-       
+
                  <div class="large-4 columns text-right redes_sociales">
-                      <a href="#"><img src="<?php bloginfo('template_directory');?>/img/icon_facebook.png" alt="" class="facebook"></a> 
-                      <a href="#"><img src="<?php bloginfo('template_directory');?>/img/icon_instagram.png" alt="" class="instagram"></a> 
-                      <a href="#"><img src="<?php bloginfo('template_directory');?>/img/icon_twitter.png" alt="" class="twitter"></a> 
-                      <a href="#"><img src="<?php bloginfo('template_directory');?>/img/icon_youtube.png" alt="" class="youtube"></a> 
+                      <a href="#"><img src="<?php bloginfo('template_directory');?>/img/icon_facebook.png" alt="" class="facebook"></a>
+                      <a href="#"><img src="<?php bloginfo('template_directory');?>/img/icon_instagram.png" alt="" class="instagram"></a>
+                      <a href="#"><img src="<?php bloginfo('template_directory');?>/img/icon_twitter.png" alt="" class="twitter"></a>
+                      <a href="#"><img src="<?php bloginfo('template_directory');?>/img/icon_youtube.png" alt="" class="youtube"></a>
                  </div>
     </div>
 </header>
