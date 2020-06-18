@@ -24,10 +24,8 @@
         <div class="large-6 columns quienes_somos">
             <h1 class="titulo_quienes_somos">Productora <br> Buenos Muchachos</h1>
 
-            <p class="texto_quienes_somos">Productora Buenos Muchachos, es una empresa regional, de iniciativa privada, creada en diciembre de 2008 por un grupo de personas amantes de las comunicaciones, con ganas de presentar propuestas novedosas a la comunidad, incorporando altos estándares tecnológicos en los procesos de producción.</p>
-            <p class="texto_quienes_somos">
-            Creativos, innovadores, transgresores, amantes de la Buena Mesa y que sin duda cada vez que nos confíen algún trabajo ahí estaremos para cumplir tu encargo, sin dejar ningún rastros por más difícil que sea. Porque sellamos un compromiso ¿Sabes por qué? Porque Somos los Buenos Muchachos.
-            </p>
+            <p class="texto_quienes_somos">Productora Buenos Muchachos, es una empresa regional, de iniciativa privada, creada en diciembre de 2008 por un grupo de personas amantes de las comunicaciones, con ganas de presentar propuestas novedosas a la comunidad, incorporando altos estándares tecnológicos en los procesos de producción.<br>
+            Creativos, innovadores, transgresores, amantes de la Buena Mesa y que sin duda cada vez que nos confíen algún trabajo ahí estaremos para cumplir tu encargo, sin dejar ningún rastros por más difícil que sea. Porque sellamos un compromiso ¿Sabes por qué? Porque Somos los Buenos Muchachos.</p>
         </div>
 
         <div class="large-6 columns quienes_somos">
