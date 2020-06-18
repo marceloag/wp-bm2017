@@ -9,15 +9,9 @@
                 <img src="<?php bloginfo('template_directory'); ?>/img/slider_1.png" alt="slide 1" />
 									<div class="caption">
 										<div class="row">
-													<div class="large-5 columns">
-																<h1 class="titulo_slider">Producción Audiovisual</h1>
-																 <p class="texto_slider">
-																	 Creativos, innovadores, transgresores, amantes de la Buena Mesa y que sin duda cada vez que nos confíen algún trabajo, ahí estaremos para cumplir tu  encargo. Sin dejar ningún rastro por más  difícil que sea, porque sellamos un compromiso.
-																 </p>
-													</div>
-													<div class="large-7 columns">
-														<style>.embed-container { position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%; } .embed-container iframe, .embed-container object, .embed-container embed { position: absolute; top: 0; left: 0; width: 100%; height: 100%; }</style><div class='embed-container'><iframe src='https://www.youtube.com/embed/PmY0RY1nswg' frameborder='0' allowfullscreen></iframe></div>
-													</div>
+											<div class="large-12 columns">
+											    <style>.embed-container { position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%; } .embed-container iframe, .embed-container object, .embed-container embed { position: absolute; top: 0; left: 0; width: 100%; height: 100%; }</style><div class='embed-container'><iframe src='https://www.youtube.com/embed/PmY0RY1nswg' frameborder='0' allowfullscreen></iframe></div>
+											</div>
 										</div>
 									</div>
                </li>
@@ -40,7 +34,7 @@
     </div>
 
      <!-- SERVICIOS -->
-     <div class="row collapse servicios">
+     <!-- <div class="row collapse servicios">
          <div class="large-12 columns text-center">
 
            <h1><spam>Nuestros</spam> Servicios</h1>
@@ -64,7 +58,7 @@
 
               </ul>
           </div>
-      </div>
+      </div> -->
 
      <!-- PORTAFOLIO -->
      <div class="row full textura">
@@ -118,59 +112,6 @@
 										</li>
 									<?php endwhile; ?>
 									<!-- end of the loop -->
-<!--
-                  <li class="item">
-                     <div class="row full contenedor_programa">
-                         <div class="large-5 medium-5 columns logo_programa">
-                             <img src="<?php bloginfo('template_directory'); ?>/img/logo_se_vende.png" alt="">
-                         </div>
-
-                         <div class="large-7 medium-7 columns texto_programas">
-                            <h3>Se Vende</h3>
-                             <p>Como vendedor o como auspiciador, nuestros clientes cuentan con una vitrina permanente, para mostrar sus productos o servicios. Este Programa <a href="#">[…]</a></p>
-                         </div>
-                     </div>
-                  </li>
-
-                  <li class="item">
-                     <div class="row full contenedor_programa">
-                         <div class="large-5 medium-5 columns logo_programa">
-                             <img src="<?php bloginfo('template_directory'); ?>/img/logo_buena_mesa.png" alt="">
-                         </div>
-
-                         <div class="large-7 medium-7 columns texto_programas">
-                            <h3>Buena Mesa</h3>
-                             <p>Con la conducción del reconocido Chef Sebastián, se exhiben distintas preparaciones culinarias para el deleite de los paladares magallánicos. Con <a href="#">[…]</a></p>
-                         </div>
-                     </div>
-                  </li>
-
-                  <li class="item">
-                     <div class="row full contenedor_programa">
-                         <div class="large-5 medium-5 columns logo_programa">
-                             <img src="<?php bloginfo('template_directory'); ?>/img/logo_tiempo.png" alt="">
-                         </div>
-
-                         <div class="large-7 medium-7 columns texto_programas">
-                            <h3>El Tiempo</h3>
-                             <p>Primer programa regional en exhibir, con la técnica Chroma Key, el pronóstico del tiempo en la región. Con la conducción <a href="#">[…]</a></p>
-                         </div>
-                     </div>
-                  </li>
-
-                  <li class="item">
-                     <div class="row full contenedor_programa">
-                         <div class="large-5 medium-5 columns logo_programa">
-                             <img src="<?php bloginfo('template_directory'); ?>/img/logo_rally.png" alt="">
-                         </div>
-
-                         <div class="large-7 medium-7 columns texto_programas">
-                            <h3>Hablemos de Rally</h3>
-                             <p>Programa de televisión, con la conducción de Pedro Maldonado y Yakov Masle, dedicado a la cobertura del rally regional, espacio <a href="#">[…]</a></p>
-                         </div>
-                     </div>
-                  </li> -->
-
               </ul>
          </div>
       </div>
