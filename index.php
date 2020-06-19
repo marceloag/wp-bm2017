@@ -102,7 +102,7 @@
 										<li class="item">
 											 <div class="row full contenedor_programa">
 													 <div class="large-5 medium-5 columns logo_programa">
-                                                        <a href="<?php get_field('playlist_url')?>">
+                                                        <a href="<?php echo get_field('playlist_url');?>">
                                                                  <?php the_post_thumbnail();?>
                                                         </a>
 													 </div>
