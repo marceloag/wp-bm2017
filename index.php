@@ -3,20 +3,22 @@
 <section>
     <!-- SLIDER -->
     <div class="row collapse full">
-        <div class="large-12 columns">
+        <!-- <div class="large-12 columns"> -->
               <ul class="example-orbit" data-orbit data-options="bullets:false;slide_number:false">
                <li class="active">
                 <img src="<?php bloginfo('template_directory'); ?>/img/slider_1.png" alt="slide 1" />
 									<div class="caption">
 										<div class="row">
 											<div class="large-12 columns">
-											    <style>.embed-container { position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%; } .embed-container iframe, .embed-container object, .embed-container embed { position: absolute; top: 0; left: 0; width: 100%; height: 100%; }</style><div class='embed-container'><iframe src='https://www.youtube.com/embed/PmY0RY1nswg' frameborder='0' allowfullscreen></iframe></div>
+											    <style>.embed-container { position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%; } .embed-container iframe, .embed-container object, .embed-container embed { position: absolute; top: 0; left: 0; width: 100%; height: 100%; }</style><div class='embed-container'>
+                                                <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/P_Gv7dCpLLk?controls=0" frameborder="0" allow="accelerometer; autoplay=1; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                                                </div>
 											</div>
 										</div>
 									</div>
                </li>
             </ul>
-        </div>
+        <!-- </div> -->
     </div>
 
      <!-- QUIENES SOMOS -->
