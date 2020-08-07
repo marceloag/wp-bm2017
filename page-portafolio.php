@@ -1,3 +1,5 @@
+<?php get_header(); ?>
+
 <?php
 /*
 Template Name: Portafolio
@@ -35,3 +37,5 @@ Template Name: Portafolio
       </div>
     </div>
   </section>
+
+  <?php get_footer(); ?>
