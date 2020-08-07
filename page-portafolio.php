@@ -8,7 +8,7 @@ Template Name: Portafolio
 
   <section id="main">
     <div class="row page">
-      <div class="large-10 large-centered columns">
+      <div class="large-12 large-centered columns">
 				<?php if (have_posts()) : while (have_posts()) : the_post(); ?>
 					<h1><?php the_title() ?></h1>
 
@@ -27,7 +27,9 @@ Template Name: Portafolio
                             <!-- the loop -->
                     <?php while ( $the_query->have_posts() ) : $the_query->the_post(); ?>
                     <li>
-                      <?php the_content();?>
+                      <div class="flex-video">
+                        <?php the_content();?>
+                      </div>
                     </li>
                     <?php endwhile; ?>
             </ul>
