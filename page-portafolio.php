@@ -65,9 +65,9 @@ Template Name: Portafolio
             <ul class="large-block-grid-3">
                             <?php
                                 $the_query = new WP_Query(array(
-                                  'post_type' => 'spots',
+                                  'post_type' => 'post',
                                   'showposts' => 10, 
-                                  'category_name' => 'registros',
+                                  'category_name' => 'spots',
                                   'orderby'     => 'meta_value_num',
                                   'order'       => 'DESC'
                                 ));
