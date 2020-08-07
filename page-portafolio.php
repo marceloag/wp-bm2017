@@ -36,14 +36,14 @@ Template Name: Portafolio
             </ul>
           </div>
 
-          <div class="circuito">
-            <h1> Circuito Cerrado </h1>
+          <div class="registros">
+            <h1> Spots Publicitarios </h1>
             <ul class="large-block-grid-3">
                             <?php
                                 $the_query = new WP_Query(array(
                                   'post_type' => 'post',
                                   'showposts' => 10, 
-                                  'category_name' => 'circuito',
+                                  'category_name' => 'spots',
                                   'orderby'     => 'meta_value_num',
                                   'order'       => 'DESC'
                                 ));
@@ -60,14 +60,14 @@ Template Name: Portafolio
             </ul>
           </div>
 
-          <div class="registros">
-            <h1> Spots Publicitarios </h1>
+          <div class="circuito">
+            <h1> Sistemas de Circuito Cerrado </h1>
             <ul class="large-block-grid-3">
                             <?php
                                 $the_query = new WP_Query(array(
                                   'post_type' => 'post',
                                   'showposts' => 10, 
-                                  'category_name' => 'spots',
+                                  'category_name' => 'circuito',
                                   'orderby'     => 'meta_value_num',
                                   'order'       => 'DESC'
                                 ));
